@@ -32,7 +32,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  transition: background-color .3s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 
 .main_container ul li:first-child::before {
@@ -40,21 +40,24 @@
   opacity: .2;
 }
 .main_container ul li:first-child:hover::before {
-  background: #0670ad;
+  background: #709EB8;
+  opacity: .4;
 }
 .main_container ul li:nth-child(2)::before {
   background: #b0e4cb;
   opacity: .2;
 }
 .main_container ul li:nth-child(2):hover::before {
-  background: #159155;
+  background: #B0E4CB;
+  opacity: .4;
 }
 .main_container ul li:nth-child(3)::before {
   background: #cbbed6;
   opacity: .2;
 }
 .main_container ul li:nth-child(3):hover::before {
-  background: #5f1c96;
+  background: #CBBED6;
+  opacity: .4;
 }
 .main_container ul li div {
   position: absolute;
