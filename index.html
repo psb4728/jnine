@@ -129,6 +129,14 @@
     function pageMove(page) {
       location.href = page;
     }
+
+    const navigation = document.querySelector('.navigation');
+    const hamBtn = document.querySelector('.ham_btn');
+
+    hamBtn.addEventListener('click', () => {
+      hamBtn.classList.toggle('open');
+      navigation.classList.toggle('open');
+    })
   </script>
 </body>
 </html>
