@@ -195,7 +195,14 @@ footer ul li span {
   position: relative;
   box-sizing: border-box;
 }
-.visual_container .img_box { overflow: hidden; }
+.visual_container .img_box { 
+  width: 100%;
+  overflow: hidden; 
+}
+.visual_container .img_box img {
+  width: 100%;
+  object-fit: cover;
+}
 
 .visual_container .tit_wrap {
   position: absolute;
