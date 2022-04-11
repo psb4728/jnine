@@ -184,9 +184,6 @@ footer ul li span {
   box-sizing: border-box;
 }
 .visual_container .img_box { overflow: hidden; }
-.visual_container .img_box img {
-  animation: img_zoom .8s forwards linear;
-}
 
 .visual_container .tit_wrap {
   position: absolute;
@@ -227,15 +224,6 @@ footer ul li span {
   100% {
     transform: translateY(0px);
     opacity: 1;
-  }
-}
-
-@keyframes img_zoom {
-  0% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
   }
 }
 

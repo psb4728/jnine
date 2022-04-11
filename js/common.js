@@ -39,6 +39,3 @@ hamBtn.addEventListener('click', ()=> {
 //   subMenu.classList.toggle('open');
 // });
 
-function pageMove(page) {
-  location.href = page;
-}
