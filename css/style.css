@@ -345,6 +345,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   margin-top: -3px;
 }
+.media_wrap ul li {
+  width: 100%;
+}
 .media_wrap ul:first-child { margin-bottom: 20px; }
 
 
@@ -425,6 +428,12 @@
     width: calc((100% / 2) - 2rem);
   }
   .tab_content ul li img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .media_wrap ul { grid-template-columns: 1fr;}
+  .media_wrap ul li img {
     width: 100%;
     object-fit: cover;
   }
