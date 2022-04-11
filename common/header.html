@@ -1,0 +1,44 @@
+<div class="logo_wrap">
+  <h1>
+    <a href="../index.html">
+      <img src="../images/logo.png" alt="JNINE">
+    </a>
+  </h1>
+  <p>Development of next-generation new media contents</p>
+</div>
+
+<div class="ham_btn">
+  <a href="#"></a>
+  <a href="#"></a>
+  <a href="#"></a>
+</div>
+
+<nav class="navigation">
+  <ul class="nav_menu">
+    <li><a href="../index.html">HOME</a></li>
+    <li><a href="../page/about.html">ABOUT US</a></li>
+    <li class="more_menu_parent">
+      <a href="javascript:void();">
+        BUSINESS
+      </a>
+      <div class="sub_menu">
+        <ul>
+          <li><a href="../page/business.html">홍보 동영상</a></li>
+          <li><a href="../page/business1.html">융합형 콘텐츠</a></li>
+          <li><a href="../page/business2.html">미디어 전시 서비스</a></li>
+        </ul>
+      </div>
+    </li>
+    <li><a href="../page/news.html">NEWS</a></li>
+  </ul>
+</nav>
+
+<script>
+  const navigation = document.querySelector('.navigation');
+  const hamBtn = document.querySelector('.ham_btn');
+
+  hamBtn.addEventListener('click', () => {
+    hamBtn.classList.toggle('open');
+    navigation.classList.toggle('open');
+  })
+</script>
