@@ -175,7 +175,7 @@
   overflow-x: scroll;
 }
 .partners_wrap ul::-webkit-scrollbar {
-  height: 5px;
+  height: 0;
 }
 .partners_wrap ul::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
